@@ -3,17 +3,17 @@ import "./App.css";
 import "./responsive.css";
 import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HomeScreen from "./screens/HomeScreen";
-import SingleProduct from "./screens/SingleProduct";
-import Login from "./screens/Login";
-import Register from "./screens/Register";
-import CartScreen from "./screens/CartScreen";
-import ShippingScreen from "./screens/ShippingScreen";
-import ProfileScreen from "./screens/ProfileScreen";
-import PaymentScreen from "./screens/PaymentScreen";
-import PlaceOrderScreen from "./screens/PlaceOrderScreen";
-import OrderScreen from "./screens/OrderScreen";
-import NotFound from "./screens/NotFound";
+import HomeScreen from "./pages/HomeScreen";
+import SingleProduct from "./pages/SingleProduct";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import CartScreen from "./pages/CartScreen";
+import ShippingScreen from "./pages/ShippingScreen";
+import ProfileScreen from "./pages/ProfileScreen";
+import PaymentScreen from "./pages/PaymentScreen";
+import PlaceOrderScreen from "./pages/PlaceOrderScreen";
+import OrderScreen from "./pages/OrderScreen";
+import NotFound from "./pages/NotFound";
 import PrivateRouter from "./PrivateRouter";
 
 const App = () => {
